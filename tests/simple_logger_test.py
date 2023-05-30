@@ -7,8 +7,8 @@ import chess
 import chess.pgn
 
 
-game = chess.pgn.Game()
-ml = Move_Logger(game)
+board = chess.Board()
+ml = Move_Logger(board)
 
 ml.make_move("d2d4")
 ml.make_move("d7d5")
